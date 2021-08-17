@@ -1,0 +1,55 @@
+/* ********* WeddingDreams ******** */
+* {}
+
+body{
+	margin: auto;
+	font-family: "Raleway", sans-serif;
+}
+
+header {
+	left:0;
+	top:0;
+	background:#ffffff;
+	box-shadow: 0px 5px 10px rgba(154, 87, 87, 0.1);
+	width: 100%;
+	/* box-sizing: border-box; */
+}
+
+.header__logo {
+	padding: 30px 0;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+logo {
+	cursor: pointer;
+}
+
+.col-lg-8 {
+}
+
+.col-md-9 {
+}
+
+
+
+ul.menu__utama { 	
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	background: green; 
+	border: 2px solid red;
+}
+ul.menu__utama li {  
+	margin-right: 400px; 
+	list-style: none; 
+	line-height:100px;
+}
+
+.menu__utama ul li a{
+  text-decoration: none;
+ 
+}
+.header_menu {
+	text-align: center;
+}
