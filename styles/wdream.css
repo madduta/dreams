@@ -6,6 +6,91 @@ body{
 	font-family: "Raleway", sans-serif;
 }
 
+.header {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	background: #ffffff;
+	box-shadow: 0px 5px 10px rgba(154, 87, 87, 0.1);
+	/*  box-sizing: border-box; */
+}
+.container-fluid {
+	padding: 0 15px;
+	margin: auto;
+	width: 100%;
+}
+
+.row {
+	display:flex;
+	flex-wrap: wrap;
+}
+.header__logo {
+	padding: 30px 0;
+}
+.header__logo a {
+	display: inline-block;
+}
+
+logo {
+	cursor: pointer;
+}
+
+.col-lg-2 {
+.col-lg-2 {
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%;
+}
+
+.col-lg-8 {
+	flex: 0 0 66.666667%;
+	max-width: 66.666667%;
+}
+
+.col-md-9 {
+}
+
+.header__menu {
+	text-align: center;
+    padding: 30px 0;
+	background: red;
+
+}
+
+/*** nav Navigation ***/
+
+/*
+.item {
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+ul.menu__utama { 	
+	display: flex;
+	list-style: none;
+	background: green; 
+	border: 2px solid red;
+}
+ul.menu__utama li {  
+	margin-right: 400px; 
+	list-style: none; 
+	line-height:100px;
+}
+
+.menu__utama ul li a{
+  text-decoration: none;
+ 
+}
+.header_menu {
+	text-align: center;
+}
+*/
+/* ********* WeddingDreams ******** */
+* {}
+
+body{
+	margin: auto;
+	font-family: "Raleway", sans-serif;
+}
+
 header {
 	left:0;
 	top:0;
