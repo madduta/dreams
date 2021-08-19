@@ -7,7 +7,6 @@ body{
 }
 
 .header {
-	position: absolute;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -37,103 +36,48 @@ logo {
 }
 
 .col-lg-2 {
-	flex: 0 0 16.666667%;
-	max-width: 16.666667%;
-}
-
-.col-lg-8 {
 	flex: 0 0 66.666667%;
 	max-width: 66.666667%;
 }
 
-.col-md-9 {
-}
-
-.header__menu {
-	text-align: center;
-    padding: 30px 0;
-	background: red;
-
-}
-
-/*** nav Navigation ***/
-
-/*
-.item {
-  align-self: auto | flex-start | flex-end | center | baseline | stretch;
-}
-ul.menu__utama { 	
-	display: flex;
-	list-style: none;
-	background: green; 
-	border: 2px solid red;
-}
-ul.menu__utama li {  
-	margin-right: 400px; 
-	list-style: none; 
-	line-height:100px;
-}
-
-.menu__utama ul li a{
-  text-decoration: none;
- 
-}
-.header_menu {
-	text-align: center;
-}
-*/
-/* ********* WeddingDreams ******** */
-* {}
-
-body{
-	margin: auto;
-	font-family: "Raleway", sans-serif;
-}
-
-header {
-	left:0;
-	top:0;
-	background:#ffffff;
-	box-shadow: 0px 5px 10px rgba(154, 87, 87, 0.1);
-	width: 100%;
-	/* box-sizing: border-box; */
-}
-
-.header__logo {
-	padding: 30px 0;
-	box-sizing: border-box;
-	border: 1px solid red;
-}
-
-logo {
-	cursor: pointer;
-}
-
 .col-lg-8 {
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%;
 }
 
 .col-md-9 {
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+	line-height:1.5;
 }
 
 
+nav {
+  border: 1px solid blue;
+}
+.header__menu { 
+}
 
-ul.menu__utama { 	
+.header__menu ul {
 	display: flex;
-	justify-content: center;
-	list-style: none;
-	background: green; 
-	border: 2px solid red;
+	justify-content: flex-start;
+	flex-flow:wrap;
+	list-decoration: none;
 }
-ul.menu__utama li {  
-	margin-right: 400px; 
-	list-style: none; 
-	line-height:100px;
+.header__menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 40px;
+	position:relative;
 }
 
-.menu__utama ul li a{
-  text-decoration: none;
- 
-}
-.header_menu {
-	text-align: center;
+.header__menu ul li a {
+    font-size: 14px;
+    color: #0d0d0d;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
 }
